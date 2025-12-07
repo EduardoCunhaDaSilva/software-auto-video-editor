@@ -1,94 +1,96 @@
-🛠 Editor de Vídeo + Conversor MP4
+🎬 Editor de Vídeo + Conversor MP4
+Status: 🚧 Em construção
 
-Status: EM CONSTRUÇÃO
+Este projeto reúne duas ferramentas simples para edição e conversão de vídeos usando Python:
 
-Este projeto contém dois scripts Python:
+Editor de Vídeo: detecta silêncio, corta automaticamente e recompila o vídeo.
 
-editor_video.py — Remove partes silenciosas de um vídeo e junta os trechos com áudio.
-
-conversor_mp4.py — Converte arquivos .mov para .mp4.
+Conversor MOV → MP4: converte vídeos .mov para .mp4 usando MoviePy.
 
 📦 Dependências
 
-Instale tudo antes de rodar:
+Instale as bibliotecas necessárias:
 
 pip install pydub moviepy
 
+🧰 FFmpeg (Obrigatório)
 
-Além disso, é obrigatório ter o FFmpeg instalado no sistema.
+Os dois scripts dependem do FFmpeg.
+Verifique se está instalado:
 
-Verificar o FFmpeg
 ffmpeg -version
 
 
-Se não aparecer versão nenhuma, instale:
+Se não estiver, instale:
 
-Windows
+Windows: https://ffmpeg.org/download.html
+ (adicionar o bin/ ao PATH)
+Linux:
 
-Baixe em: https://ffmpeg.org/download.html
-
-Adicione o binário ao PATH.
-
-Linux (Debian/Ubuntu)
 sudo apt install ffmpeg
 
-MacOS (Homebrew)
+
+MacOS:
+
 brew install ffmpeg
 
 📁 Estrutura recomendada
 /projeto
-  editor_video.py
-  conversor_mp4.py
-  input.mp4
-  video.mov
+ ├── editor_video.py
+ ├── conversor_mp4.py
+ ├── input.mp4
+ └── video.mov
 
-▶️ Como usar
-1) Editor de Vídeo (remove silêncio)
-Arquivo: editor_video.py
-O que ele faz
+🎧 Editor de Vídeo (Remove Silêncio)
+📜 Arquivo: editor_video.py
+✨ O que ele faz
 
-Carrega input.mp4
+Lê input.mp4
 
 Detecta trechos com áudio
 
-Corta somente esses trechos
+Corta somente as partes úteis
 
-Cria vários arquivos part_X.mp4
+Gera múltiplos arquivos part_X.mp4
 
 Junta tudo em output.mp4
 
-Também tem a função compile_parts() caso você queira recompilar manualmente
+Possui função compile_parts() caso queira recompilar manualmente
 
-Rodar:
+▶️ Como rodar
 python editor_video.py
 
 
-O arquivo final gerado será:
+Resultado principal:
 
 output.mp4
 
-
-Se quiser recompilar manualmente depois:
-
+🔁 Recompilar manualmente
 from editor_video import compile_parts
 compile_parts("final_output.mp4")
 
-2) Conversor de MOV ➜ MP4
-Arquivo: conversor_mp4.py
-O que ele faz
+🎥 Conversor MOV → MP4
+📜 Arquivo: conversor_mp4.py
+✨ O que ele faz
 
-Carrega video.mov
+Abre video.mov
 
 Converte para video_convertido.mp4
 
-Rodar:
+Usa MoviePy com codec H.264 + AAC
+
+▶️ Como rodar
 python conversor_mp4.py
 
 
-Se o arquivo video.mov não existir, ele avisa.
+Resultado:
 
-⚠️ Avisos
+video_convertido.mp4
 
-O editor de vídeo re-encoda os trechos, ou seja, não é instantâneo.
+⚠️ Avisos importantes
 
-O projeto está em construção, então pode ter comportamento estranho ou gerar arquivos muito grandes dependendo do vídeo.
+O editor precisa re-encodar os trechos, então não é rápido.
+
+Arquivos gerados podem ficar grandes dependendo da qualidade do vídeo.
+
+O projeto ainda está em construção, então mudanças são esperadas.
