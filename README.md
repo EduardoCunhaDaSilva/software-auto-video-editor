@@ -20,11 +20,11 @@ pip install pydub moviepy
 
 ## 🧰 2. FFmpeg (Obrigatório)
 
-Ambos os scripts exigem que a ferramenta externa FFmpeg esteja instalada e acessível no seu sistema (no seu PATH).
+* Ambos os scripts exigem que a ferramenta externa FFmpeg esteja instalada e acessível no seu sistema (no seu PATH).
 
-Verifique a instalação rodando no terminal:
+* Verifique a instalação rodando no terminal:
 
-ffmpeg -version
+* ffmpeg -version
 
 ## 📁 3. Estrutura de Arquivos
 
