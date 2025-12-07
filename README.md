@@ -14,8 +14,6 @@ Este projeto **oferece duas ferramentas** simples em Python para processamento d
 ## 📦 1. Dependências e Instalação
 Instale as bibliotecas Python necessárias usando pip:
 
-Bash
-
 pip install pydub moviepy
 
 ## 🧰 2. FFmpeg (Obrigatório)
