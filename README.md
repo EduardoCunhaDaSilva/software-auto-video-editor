@@ -3,7 +3,7 @@
 
 
 ## 🎬 Video Toolkit: Editor e Conversor Simples com Python
-Status: 🚧 Em Construção
+**Status: 🚧 Em Construção**
 
 Este projeto **oferece duas ferramentas** simples em Python para processamento de vídeo:
 
