@@ -64,7 +64,7 @@ rode: python editor_video.py
 
 Arquivo: conversor_mp4.py
 
-** ✨ Funcionalidade**
+**✨ Funcionalidade**
 * Converte rapidamente vídeos .mov (comum em iPhones e Macs) para o formato .mp4, usando o codec H.264 + AAC para máxima compatibilidade.
 
 **▶️ Como Executar** 
@@ -76,11 +76,11 @@ Resultado: O vídeo convertido será salvo como video_convertido.mp4.
 
 ## ❗ Avisos
 
-Tempo de Processamento: O Editor de Vídeo precisa re-encodar cada trecho cortado, o que pode demorar. Não é um processo instantâneo.
+**Tempo de Processamento:** O Editor de Vídeo precisa re-encodar cada trecho cortado, o que pode demorar. Não é um processo instantâneo.
 
-Tamanho dos Arquivos: A qualidade do vídeo de entrada afeta o tamanho dos arquivos gerados (part_X.mp4 e output.mp4).
+**Tamanho dos Arquivos:** A qualidade do vídeo de entrada afeta o tamanho dos arquivos gerados (part_X.mp4 e output.mp4).
 
-Evolução: O projeto está em desenvolvimento e a estrutura dos scripts pode ser alterada em futuras atualizações.
+**Evolução:** O projeto está em desenvolvimento e a estrutura dos scripts pode ser alterada em futuras atualizações.
 
 
 
