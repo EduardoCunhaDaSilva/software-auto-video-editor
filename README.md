@@ -26,15 +26,15 @@ pip install pydub moviepy
 
 * ffmpeg -version
 
-## 📁 3. Estrutura de Arquivos
+## 📁 3. Nome dos arquivos
 
-Recomendamos a seguinte organização para rodar os scripts:
+* video.mov
+Arquivo de entrada original. Use esse nome para o vídeo .mov que será convertido para .mp4.
 
-/projeto
- ├── editor_video.py
- ├── conversor_mp4.py
- ├── input.mp4      <-- Arquivo de ENTRADA para o Editor
- └── video.mov       <-- Arquivo de ENTRADA para o Conversor
+**Depois da conversão:**
+
+* input.mp4
+Renomeie o arquivo convertido para input.mp4. É esse arquivo que o script vai usar para fazer a edição.
 
  ## 🎧 4. Editor de Vídeo (Remove Silêncio)
 
