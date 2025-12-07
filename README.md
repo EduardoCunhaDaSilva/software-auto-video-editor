@@ -22,7 +22,7 @@ Verifique a instalação rodando no terminal:
 
 ffmpeg -version
 
-##📁 3. Estrutura de Arquivos
+## 📁 3. Estrutura de Arquivos
 
 Recomendamos a seguinte organização para rodar os scripts:
 
@@ -32,7 +32,7 @@ Recomendamos a seguinte organização para rodar os scripts:
  ├── input.mp4      <-- Arquivo de ENTRADA para o Editor
  └── video.mov       <-- Arquivo de ENTRADA para o Conversor
 
- ##🎧 4. Editor de Vídeo (Remove Silêncio)
+ ## 🎧 4. Editor de Vídeo (Remove Silêncio)
 
  Arquivo: editor_video.py
 
@@ -70,7 +70,7 @@ rode: python conversor_mp4.py
 
 Resultado: O vídeo convertido será salvo como video_convertido.mp4.
 
-##❗ Avisos
+## ❗ Avisos
 
 Tempo de Processamento: O Editor de Vídeo precisa re-encodar cada trecho cortado, o que pode demorar. Não é um processo instantâneo.
 
