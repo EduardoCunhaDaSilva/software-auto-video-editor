@@ -20,9 +20,15 @@ pip install pydub moviepy
 
 * Ambos os scripts exigem que a ferramenta externa FFmpeg esteja instalada e acessível no seu sistema (no seu PATH).
 
+* intale o ffmpeg:
+
+* choco install ffmpeg
+
 * Verifique a instalação rodando no terminal:
 
 * ffmpeg -version
+
+
 
 ## 📁 3. Nome dos arquivos
 
