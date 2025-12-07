@@ -43,15 +43,15 @@ Recomendamos a seguinte organização para rodar os scripts:
 **✨ Funcionalidade Detalhada**
 O script automatiza o corte de pausas longas e silêncios.
 
-*Lê o arquivo de entrada (input.mp4).
+* Lê o arquivo de entrada (input.mp4).
 
-*Detecta trechos que contêm áudio.
+* Detecta trechos que contêm áudio.
 
-*Corta e salva apenas as partes faladas/úteis.
+* Corta e salva apenas as partes faladas/úteis.
 
-*Gera arquivos temporários (part_X.mp4).
+* Gera arquivos temporários (part_X.mp4).
 
-*Junta todas as partes no vídeo final.
+* Junta todas as partes no vídeo final.
 
 ## ▶️ Como Executar
 Pré-requisito: O arquivo de entrada deve ser nomeado input.mp4.
