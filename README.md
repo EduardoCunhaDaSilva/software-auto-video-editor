@@ -5,11 +5,11 @@
 ## 🎬 Video Toolkit: Editor e Conversor Simples com Python
 Status: 🚧 Em Construção
 
-Este projeto oferece duas ferramentas simples em Python para processamento de vídeo:
+Este projeto **oferece duas ferramentas** simples em Python para processamento de vídeo:
 
-Editor de Vídeo: Detecta e corta silêncios automaticamente.
+**Editor de Vídeo:** Detecta e corta silêncios automaticamente.
 
-Conversor: Transforma vídeos .mov para o formato .mp4.
+**Conversor:** Transforma vídeos .mov para o formato .mp4.
 
 ## 📦 1. Dependências e Instalação
 Instale as bibliotecas Python necessárias usando pip:
@@ -54,20 +54,20 @@ O script automatiza o corte de pausas longas e silêncios.
 * Junta todas as partes no vídeo final.
 
 ## ▶️ Como Executar
-Pré-requisito: O arquivo de entrada deve ser nomeado input.mp4.
+**Pré-requisito:** O arquivo de entrada deve ser nomeado input.mp4.
 
 rode: python editor_video.py
 
-Resultado: O vídeo final sem silêncios será salvo como output.mp4.
+**Resultado:** O vídeo final sem silêncios será salvo como output.mp4.
 
-##🎥 5. Conversor MOV → MP4
+## 🎥 5. Conversor MOV → MP4
 
 Arquivo: conversor_mp4.py
 
-✨ Funcionalidade
-Converte rapidamente vídeos .mov (comum em iPhones e Macs) para o formato .mp4, usando o codec H.264 + AAC para máxima compatibilidade.
+** ✨ Funcionalidade**
+* Converte rapidamente vídeos .mov (comum em iPhones e Macs) para o formato .mp4, usando o codec H.264 + AAC para máxima compatibilidade.
 
-▶️ Como Executar
+**▶️ Como Executar** 
 Pré-requisito: O arquivo de entrada deve ser nomeado video.mov
 
 rode: python conversor_mp4.py
