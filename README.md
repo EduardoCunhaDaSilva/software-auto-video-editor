@@ -40,7 +40,7 @@ Recomendamos a seguinte organização para rodar os scripts:
 
  Arquivo: editor_video.py
 
-## ✨ Funcionalidade Detalhada
+**✨ Funcionalidade Detalhada**
 O script automatiza o corte de pausas longas e silêncios.
 
 Lê o arquivo de entrada (input.mp4).
