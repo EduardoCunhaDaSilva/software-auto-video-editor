@@ -2,7 +2,7 @@
 <img width="1080" height="1080" alt="Sem Título-121" src="https://github.com/user-attachments/assets/27e5121e-0ab4-42d0-b340-35223b7c883e" />
 
 
-🎬 Video Toolkit: Editor e Conversor Simples com Python
+## 🎬 Video Toolkit: Editor e Conversor Simples com Python
 Status: 🚧 Em Construção
 
 Este projeto oferece duas ferramentas simples em Python para processamento de vídeo:
@@ -40,7 +40,7 @@ Recomendamos a seguinte organização para rodar os scripts:
 
  Arquivo: editor_video.py
 
-✨ Funcionalidade Detalhada
+## ✨ Funcionalidade Detalhada
 O script automatiza o corte de pausas longas e silêncios.
 
 Lê o arquivo de entrada (input.mp4).
@@ -53,7 +53,7 @@ Gera arquivos temporários (part_X.mp4).
 
 Junta todas as partes no vídeo final.
 
-▶️ Como Executar
+## ▶️ Como Executar
 Pré-requisito: O arquivo de entrada deve ser nomeado input.mp4.
 
 rode: python editor_video.py
