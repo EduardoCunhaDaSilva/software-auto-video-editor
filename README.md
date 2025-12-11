@@ -1,5 +1,5 @@
 
-<img width="300" height="300" alt="Sem Título-121" src="https://github.com/user-attachments/assets/27e5121e-0ab4-42d0-b340-35223b7c883e" />
+<img width="600" height="300" alt="Sem Título-121" src="https://github.com/user-attachments/assets/27e5121e-0ab4-42d0-b340-35223b7c883e" />
 
 
 ## 🎬 Video Toolkit: Editor e Conversor Simples com Python
